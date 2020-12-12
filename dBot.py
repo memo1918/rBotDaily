@@ -1,7 +1,7 @@
 import discord,requests
 from bs4 import BeautifulSoup
 
-botToken = "Nzg3MzAwNDkwNDg4MTg0ODQy.X9S8uA.MjU8RZVnNT3IDDefLQ4ghHTTXa4"
+botToken = "Nzg3MzAwNDkwNDg4MTg0ODQy.X9S8uA.umaURBOouFWubRQ51oVmy_4KcM4"
 channel = "rbotdaily"
 client = discord.Client()
 
