@@ -1,8 +1,8 @@
 import discord,requests
 from bs4 import BeautifulSoup
 
-botToken = "Nzg3MzAwNDkwNDg4MTg0ODQy.X9S8uA.umaURBOouFWubRQ51oVmy_4KcM4"
-channel = "rbotdaily"
+botToken = "Your Bot Token"
+channel = "general"
 client = discord.Client()
 
 def picM(index):
@@ -60,7 +60,7 @@ async def on_message(message):
                         await message.channel.send(str(mlist[i]))
                     break
                 except:
-                    print("f")
+                    print("Error")
                     continue
                 break
         elif message.content.find("!help") != -1:
