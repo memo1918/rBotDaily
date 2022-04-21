@@ -2,7 +2,7 @@ rBotMeme
 
 Discord bot that can post subreddit images 
 You can add urls in "urls" and you need to add
-##
+```
 elif message.content.find(COMMANDNAME)!= -1:
             while True:
                 try:
@@ -14,5 +14,5 @@ elif message.content.find(COMMANDNAME)!= -1:
                     print("f")
                     continue
                 break
-##
+```
 this line before else statement (change COMMANDNAME)
